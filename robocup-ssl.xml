@@ -388,7 +388,7 @@
 		</Var>
 		<Var name="Blue Team" type="list">
 			<Var name="Team" type="stringenum">
-				Standard2010
+				kgpkubs
 				<Var name="0" type="string">
 					Standard2010
 				</Var>
@@ -430,6 +430,18 @@
 				</Var>
 				<Var name="13" type="string">
 					Odens
+				</Var>
+				<Var name="14" type="string">
+					kgpkubs
+				</Var>
+				<Var name="15" type="string">
+					New Team 15
+				</Var>
+				<Var name="16" type="string">
+					New Team 16
+				</Var>
+				<Var name="17" type="string">
+					New Team 17
 				</Var>
 			</Var>
 			<Var name="Max Robots" type="int" minval="" maxval="">
@@ -480,6 +492,18 @@
 				</Var>
 				<Var name="13" type="string">
 					Odens
+				</Var>
+				<Var name="14" type="string">
+					kgpkubs
+				</Var>
+				<Var name="15" type="string">
+					New Team 15
+				</Var>
+				<Var name="16" type="string">
+					New Team 16
+				</Var>
+				<Var name="17" type="string">
+					New Team 17
 				</Var>
 			</Var>
 			<Var name="Max Robots" type="int" minval="" maxval="">
@@ -728,7 +752,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="1023">
-							16
+							64
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -794,10 +818,10 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value U" type="int" minval="0" maxval="568">
-							474
+							484
 						</Var>
 						<Var name="value V" type="int" minval="" maxval="">
-							550
+							552
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -885,7 +909,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="1" maxval="4095">
-							2509
+							1000
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -907,13 +931,13 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="680">
-							0
+							300
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
 						<Var name="absolute value" type="double" minval="0.000000" maxval="23.868000">
-							0.000000
+							10.500000
 						</Var>
 						<Var name="was_read" type="bool">
 							true
@@ -1331,16 +1355,16 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					460.000000
+					500.000000
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
 					390.000000
 				</Var>
 				<Var name="principal point y" type="double" minval="" maxval="">
-					290.000000
+					80.000000
 				</Var>
 				<Var name="distortion" type="double" minval="0.000000" maxval="2.000000">
-					0.630000
+					0.240000
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
 					0.700000
@@ -1355,13 +1379,13 @@
 					0.000000
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					230.000000
+					100.000000
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					-3030.000000
+					0.000000
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="5000.000000">
-					2750.000000
+					4379.000000
 				</Var>
 			</Var>
 			<Var name="Calibration Parameters" type="list">
@@ -1370,7 +1394,7 @@
 						Control point 0
 					</Var>
 					<Var name="Control point 0 image x" type="double" minval="" maxval="">
-						0.000000
+						10.000000
 					</Var>
 					<Var name="Control point 0 image y" type="double" minval="" maxval="">
 						10.000000
@@ -1387,7 +1411,7 @@
 						Control point 1
 					</Var>
 					<Var name="Control point 1 image x" type="double" minval="" maxval="">
-						10.000000
+						20.000000
 					</Var>
 					<Var name="Control point 1 image y" type="double" minval="" maxval="">
 						10.000000
@@ -1440,7 +1464,7 @@
 					4000.000000
 				</Var>
 				<Var name="line search corridor width" type="double" minval="" maxval="">
-					280.000000
+					275.000000
 				</Var>
 				<Var name="Image boundary for edge detection" type="double" minval="" maxval="">
 					10.000000
@@ -1489,7 +1513,7 @@
 				false
 			</Var>
 			<Var name="thresholded" type="bool">
-				true
+				false
 			</Var>
 			<Var name="blobs" type="bool">
 				true
@@ -1506,8 +1530,6 @@
 			<Var name="complete edge detection" type="bool">
 				false
 			</Var>
-		</Var>
-		<Var name="Neural Calibrator" type="list">
 		</Var>
 	</Var>
 	<Var name="Camera 1" type="list">
@@ -2486,8 +2508,6 @@
 				false
 			</Var>
 		</Var>
-		<Var name="Neural Calibrator" type="list">
-		</Var>
 	</Var>
 	<Var name="Camera 2" type="list">
 		<Var name="Global" type="list">
@@ -3465,8 +3485,6 @@
 				false
 			</Var>
 		</Var>
-		<Var name="Neural Calibrator" type="list">
-		</Var>
 	</Var>
 	<Var name="Camera 3" type="list">
 		<Var name="Global" type="list">
@@ -4443,8 +4461,6 @@
 			<Var name="complete edge detection" type="bool">
 				false
 			</Var>
-		</Var>
-		<Var name="Neural Calibrator" type="list">
 		</Var>
 	</Var>
 </VarXML>
